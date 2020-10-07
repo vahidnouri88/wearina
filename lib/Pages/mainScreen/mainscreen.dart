@@ -19,8 +19,8 @@ class _mainScreenState extends State<mainScreen> {
   @override
   void initState() {
     super.initState();
-    // Future.delayed(Duration(seconds: 3)).then((value) => Navigator.of(context)
-    //     .pushReplacement(MaterialPageRoute(builder: (context) => OnBoard())));
+    Future.delayed(Duration(seconds: 3)).then((value) => Navigator.of(context)
+        .pushReplacement(MaterialPageRoute(builder: (context) => OnBoard())));
   }
 
   @override
